@@ -286,13 +286,14 @@
       @close="showBacklogModal = false"
     />
 
-    <PurchaseOrderModal
+    <!-- PurchaseOrderModal.vue not yet implemented — state/handlers wired below, buttons at :214-225 -->
+    <!-- <PurchaseOrderModal
       :is-open="showPOModal"
       :backlog-item="selectedBacklogForPO"
       :mode="poModalMode"
       @close="showPOModal = false"
       @po-created="handlePOCreated"
-    />
+    /> -->
   </div>
 </template>
 
